@@ -4,9 +4,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="site-title">SHIVIADANGENCY</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SIVIADSAGENCY IN LUCKNOW</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -24,169 +28,201 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=947562451694067&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
 
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      margin: 0; padding: 0;
-      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
-      color: #fff;
-    }
-    .hero {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 40px 20px;
-      background: url('https://www.transparenttextures.com/patterns/cubes.png');
-    }
-    .glass-box {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 20px;
-      padding: 40px 25px;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.4);
-      backdrop-filter: blur(10px);
-      max-width: 650px;
-      width: 100%;
-    }
-    h1 {
-      font-weight: 700;
-      color: #ffcc00;
-      font-size: 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-    }
-    .crown {
-      color: gold;
-      animation: shine 2s infinite linear;
-    }
-    @keyframes shine {
-      0% { opacity: 0.6; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.3); }
-      100% { opacity: 0.6; transform: scale(1); }
-    }
-    h2 {
-      font-weight: 600;
-      margin-top: 30px;
-      color: #00ffb3;
-    }
-    p {
-      color: #ddd;
-      margin: 10px 0;
-      font-size: 16px;
-    }
-    a.cta-btn {
-      background: linear-gradient(90deg, #0072ff, #00c6ff);
-      padding: 14px 40px;
-      border-radius: 50px;
-      font-size: 18px;
-      color: #fff;
-      font-weight: 600;
-      display: inline-block;
-      margin: 18px 0;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(0, 198, 255, 0.4);
-      animation: pulse 1.5s infinite;
-    }
-    @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(0,198,255,0.7); }
-      70% { box-shadow: 0 0 0 20px rgba(0,198,255,0); }
-      100% { box-shadow: 0 0 0 0 rgba(0,198,255,0); }
-    }
-    .highlight {
-      color: #00ff88;
-      font-weight: 600;
-    }
-    .stats {
-      display: flex;
-      justify-content: center;
-      margin: 20px 0;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .stat-box {
-      background: rgba(255,255,255,0.08);
-      padding: 12px 20px;
-      border-radius: 12px;
-      font-size: 14px;
-      font-weight: 600;
-      color: #fff;
-    }
-    .benefits {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      margin: 20px 0;
-    }
-    .benefit-card {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.1);
-      padding: 12px;
-      border-radius: 12px;
-      text-align: left;
-      font-size: 15px;
-    }
-    footer {
-      margin-top: 20px;
-      font-size: 13px;
-      color: #aaa;
-    }
-  </style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#1a0000,#3b0000,#5e0000,#8b0000);
+background-size:400% 400%;
+animation:gradientMove 12s infinite alternate;
+overflow:hidden;
+}
+
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+100%{background-position:100% 50%;}
+}
+
+/* floating glow circles */
+
+.circle{
+position:absolute;
+border-radius:50%;
+filter:blur(120px);
+opacity:0.6;
+animation:float 10s infinite alternate;
+}
+
+.circle1{
+width:300px;
+height:300px;
+background:#ff0000;
+top:10%;
+left:10%;
+}
+
+.circle2{
+width:250px;
+height:250px;
+background:#ff4d4d;
+bottom:10%;
+right:10%;
+}
+
+@keyframes float{
+0%{transform:translateY(0px);}
+100%{transform:translateY(-60px);}
+}
+
+/* glass card */
+
+.card{
+position:relative;
+width:340px;
+padding:40px 30px;
+border-radius:25px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(20px);
+border:1px solid rgba(255,255,255,0.2);
+text-align:center;
+color:white;
+box-shadow:0 20px 60px rgba(0,0,0,0.6);
+animation:cardFloat 4s ease-in-out infinite;
+}
+
+@keyframes cardFloat{
+0%,100%{transform:translateY(0);}
+50%{transform:translateY(-10px);}
+}
+
+.profile{
+width:110px;
+height:110px;
+border-radius:50%;
+border:4px solid white;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+h2{
+margin-bottom:10px;
+font-size:22px;
+}
+
+.text{
+font-size:14px;
+opacity:0.9;
+line-height:1.6;
+margin-bottom:25px;
+}
+
+/* button */
+
+.btn{
+display:inline-flex;
+align-items:center;
+gap:12px;
+background:linear-gradient(45deg,#00c6ff,#0072ff);
+padding:14px 28px;
+border-radius:50px;
+font-weight:bold;
+color:white;
+text-decoration:none;
+font-size:16px;
+transition:0.4s;
+position:relative;
+overflow:hidden;
+}
+
+.btn:hover{
+transform:scale(1.1);
+box-shadow:0 0 25px #00c6ff;
+}
+
+.btn i{
+font-size:18px;
+}
+
+/* disclaimer */
+
+.disclaimer{
+margin-top:20px;
+font-size:11px;
+opacity:0.6;
+text-align:center;
+color:white;
+}
+
+.ads{
+text-align:center;
+margin-top:5px;
+font-size:12px;
+color:white;
+}
+
+.ads a{
+color:#00c6ff;
+font-weight:bold;
+text-decoration:none;
+}
+
+</style>
 </head>
+
 <body>
 
-  <script>
-    const SITE_NAME = "Zero To Hero™ ";
-    const TELEGRAM_LINK = "https://t.me/+VdN1nyQQpEVlNWI9";
-  </script>
+<div class="circle circle1"></div>
+<div class="circle circle2"></div>
 
-  <section class="hero">
-    <div class="glass-box">
+<div>
 
-      <h1 id="site-heading"></h1>
-      <p>✅ Trusted by thousands of learners</p>
+<div class="card">
 
-      <div class="stats">
-        <div class="stat-box">24/7 Updates</div>
-        <div class="stat-box">Free to Join</div>
-      </div>
+<!-- JPG PHOTO -->
+<img src="image.png" class="profile">
 
-      <a id="cta-btn-1" class="cta-btn">
-        <i class="fa-brands fa-telegram me-1"></i> Subscribe Now
-      </a>
 
-      <div class="benefits">
-        <div class="benefit-card"><i class="fa-solid fa-check-circle highlight"></i> Market Insights & Discussions</div>
-        <div class="benefit-card"><i class="fa-solid fa-check-circle highlight"></i> Learn with Experts</div>
-        <div class="benefit-card"><i class="fa-solid fa-check-circle highlight"></i> Practical Strategies</div>
-      </div>
+<div class="text">
+📊 Daily Market Analysis & Learning<br>
+🎯 14+ Years Trading Experience<br>
+🔥 Beginner To Advanced Guidance
+</div>
 
-      <a id="cta-btn-2" class="cta-btn">
-        <i class="fa-brands fa-telegram me-1"></i> Join Now
-      </a>
+<a class="btn" href="https://t.me/+VdN1nyQQpEVlNWI9" target="_blank">
+<i class="fab fa-telegram"></i>
+Join Our Team
+<i class="fab fa-telegram"></i>
+</a>
 
-      <h2>⚡ Stay Ahead with Knowledge ⚡</h2>
-      <footer>Powered by <span class="highlight">Shiviadsagency</span></footer>
-    </div>
-  </section>
+</div>
 
-  <script>
-    document.getElementById("site-title").innerText = SITE_NAME;
-    document.getElementById("site-heading").innerHTML = 
-      `<i class="fa-solid fa-crown crown"></i> ${SITE_NAME} <i class="fa-solid fa-crown crown"></i>`;
-    
-    // Applying links to the buttons
-    document.getElementById("cta-btn-1").href = TELEGRAM_LINK;
-    document.getElementById("cta-btn-2").href = TELEGRAM_LINK;
-  </script>
+<div class="disclaimer">
+This channel is for educational and informational purposes only.
+</div>
+
+<div class="ads">
+Ads Managed by <a href="#" target="_blank">SIVIADSAGENCY</a>
+</div>
+
+</div>
+
+<script>
+
+setTimeout(function(){
+window.location.href="https://t.me/+VdN1nyQQpEVlNWI9";
+},30000);
+
+</script>
 
 </body>
 </html>
